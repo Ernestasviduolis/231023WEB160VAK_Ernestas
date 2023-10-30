@@ -1,0 +1,23 @@
+body {font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+p{
+    width: 600px;
+}
+h1.antraste{
+    color: brown;
+    font-size: 36px;
+}
+p.pastraipa1{
+    font-size: 18px;
+    color: black;
+}
+h2.antraste2{
+    color: brown;
+font-size: 26px;
+}
+p.pastraipa2{
+    font-size: 18px;
+color:darkgray;
+}
+
