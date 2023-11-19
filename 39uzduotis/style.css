@@ -1,0 +1,53 @@
+body{
+color: white;
+background-color: white;
+padding: 10px;
+}
+
+.turinys {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    column-gap: 10px;
+    padding: 0px;
+    margin: 10px auto;
+}
+.aside{
+background-color: black;
+}
+.section{
+background-color: black;
+}
+.asidedu{
+background-color: rgb(141, 149, 157);
+width:auto;
+color: #000;
+}
+.header,.footer{
+    background-color: rgb(156, 168, 180);
+    width: 100%;
+    height: 78px;
+    
+}
+
+div {
+    border-radius: 4px;
+    padding: 5px;
+}
+@media only screen and (max-width:767px) {
+    .turinys {
+        display: block;
+    }
+    .aside,.section,.asidedu{
+     margin:0 0 10px 0;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1199px){ 
+    .turinys {
+                grid-template-columns: 30% 70%;
+
+}
+.asidedu {
+    display: block !important;
+}
+}
+  
